@@ -8,15 +8,23 @@ body{
 nav{
     display: flex;
     background-color: black;
-    justify-content: space-around;
     width: 100%;
     position: fixed;
 }
 
-nav img, footer img{
-    height: 1.5em;
+nav img{
+    height: 1.7em;
     width: auto;
     margin: 0.75em;
+    position: relative;
+    left: 109px;
+}
+
+footer img{
+    height: 1.7em;
+    width: auto;
+    margin: 0.75em;
+    margin-left: 39px;
 }
 
 body > div{
@@ -65,9 +73,8 @@ main input{
 #pai{
     margin-top: -1em;
     background-color: black;
-    width: 100%;
-    height: 600px;
-    padding: 2em 5em;
+    height: 556px;
+    padding: 0em 5em;
 }
 
 .fab{
@@ -82,6 +89,8 @@ main input{
 
 .sobre{
     display: flex;
+    padding-top: 25px;
+
 }
 
 .sobre > ul > li:first-child{
@@ -92,11 +101,49 @@ main input{
 }
 
 .sobre > ul > li{
-    padding-bottom: 1em;
-    margin-right: 5em;    
+    padding-bottom: 2em;
+    margin-right: 5em; 
 }
 
 .sobre > ul > li a{
     text-decoration: none;
     color: white;
+}
+
+.sobre > ul > li a:hover{
+    color: #1ED760;
+}
+
+.icones{
+    padding-top: 50px;
+}
+
+.icones ul li{
+    display: inline;
+}
+
+.icones ul li:hover{
+    color: #1ED760;
+}
+
+.copright{
+    display: flex;
+    background-color: black;
+    padding-left: 66px;
+    padding-bottom: 8px;
+}
+
+.copright > ul> li a{
+    text-decoration: none;
+    color: #919496;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.copright > ul> li a:hover{     
+    color: #1ED760;
+}
+
+.copright ul li{
+    display: inline;
 }
